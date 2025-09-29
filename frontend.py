@@ -1,8 +1,11 @@
 import gradio as gr
 import requests, base64, cv2
 import numpy as np
+import os
+from dotenv import load_dotenv
 
-API_URL = "https://ed9f27f7cb4d.ngrok-free.app"
+load_dotenv()
+API_URL = os.getenv("API_URL")
 
 def query_backend(prompt1, prompt2, user_query, building, apartment, floor):
     payload = {

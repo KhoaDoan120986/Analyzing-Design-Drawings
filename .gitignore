@@ -4,3 +4,5 @@ cfg.py
 .vscode/
 data/
 .gradio/
+.env
+.env.*
