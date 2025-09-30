@@ -3,10 +3,26 @@ import requests, base64, cv2
 import numpy as np
 import os
 from dotenv import load_dotenv
-import json 
+import json
+import time
 
 load_dotenv()
 API_URL = os.getenv("API_URL")
+LOG_FILE = "logs.json"
+def append_log(entry, log_file=LOG_FILE):
+    if os.path.exists(log_file):
+        try:
+            with open(log_file, "r", encoding="utf-8") as f:
+                logs = json.load(f)
+        except json.JSONDecodeError:
+            logs = []
+    else:
+        logs = []
+
+    logs.append(entry)
+    with open(log_file, "w", encoding="utf-8") as f:
+        json.dump(logs, f, ensure_ascii=False, indent=2)
+
 
 def query_backend(prompt1, prompt2, user_query, building, apartment, floor):
     payload = {
@@ -34,6 +50,17 @@ def query_backend(prompt1, prompt2, user_query, building, apartment, floor):
             (decode_img(data["floorplan_original"]), "Thiết kế gốc"),
             (decode_img(data["floorplan_cropped"]), "Thiết kế phóng to"),
         ]
+
+        log_entry = {
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+            "building_code": building,
+            "apartment_number": int(apartment),
+            "floor_number": int(floor),
+            "user_query": user_query,
+            "ans1": step1,
+            "ans2": step2,
+        }
+        append_log(log_entry)
         return f"```json\n{step1}\n```", step2, imgs
     else:
         return f"❌ Lỗi backend: {resp.text}", []

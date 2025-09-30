@@ -6,3 +6,4 @@ data/image/
 .gradio/
 .env
 .env.*
+logs.json
