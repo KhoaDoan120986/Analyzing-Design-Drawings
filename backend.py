@@ -182,4 +182,7 @@ if __name__ == "__main__":
     ngrok.set_auth_token(NGROK_AUTH_TOKEN)
     tunnel = ngrok.connect(8000, bind_tls=True)
     print("🚀 ngrok public url:", tunnel.public_url)
+
+    with open(".env", "w", encoding="utf-8") as f:
+        f.write(f"API_URL={tunnel.public_url}\n")
     uvicorn.run(app, host="0.0.0.0", port=8000)

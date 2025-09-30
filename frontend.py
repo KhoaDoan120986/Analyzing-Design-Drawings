@@ -12,7 +12,7 @@ def query_backend(prompt1, prompt2, user_query, building, apartment, floor):
     payload = {
         "prompt_1": prompt1,
         "prompt_2": prompt2,
-        "query": user_query,
+        "query": user_query.strip("\n").strip(" "),
         "building_code": building,
         "apartment_number": int(apartment),
         "floor_number": int(floor),
