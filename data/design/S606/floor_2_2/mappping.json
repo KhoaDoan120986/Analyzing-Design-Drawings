@@ -1,0 +1,184 @@
+{
+  "CH01": [
+    "floor_2_2_tile_24.jpg",
+    "floor_2_2_tile_25.jpg",
+    "floor_2_2_tile_44.jpg",
+    "floor_2_2_tile_45.jpg"
+  ],
+  "CH02": [
+    "floor_2_2_tile_25.jpg",
+    "floor_2_2_tile_26.jpg",
+    "floor_2_2_tile_45.jpg",
+    "floor_2_2_tile_46.jpg"
+  ],
+  "CH03": [
+    "floor_2_2_tile_25.jpg",
+    "floor_2_2_tile_26.jpg",
+    "floor_2_2_tile_45.jpg",
+    "floor_2_2_tile_46.jpg"
+  ],
+  "CH04": [
+    "floor_2_2_tile_26.jpg",
+    "floor_2_2_tile_27.jpg",
+    "floor_2_2_tile_46.jpg",
+    "floor_2_2_tile_47.jpg"
+  ],
+  "CH05": [
+    "floor_2_2_tile_26.jpg",
+    "floor_2_2_tile_27.jpg",
+    "floor_2_2_tile_28.jpg",
+    "floor_2_2_tile_46.jpg",
+    "floor_2_2_tile_47.jpg",
+    "floor_2_2_tile_48.jpg"
+  ],
+  "CH06": [
+    "floor_2_2_tile_27.jpg",
+    "floor_2_2_tile_28.jpg",
+    "floor_2_2_tile_47.jpg",
+    "floor_2_2_tile_48.jpg"
+  ],
+  "CH07": [
+    "floor_2_2_tile_28.jpg",
+    "floor_2_2_tile_48.jpg",
+    "floor_2_2_tile_49.jpg"
+  ],
+  "CH08": [
+    "floor_2_2_tile_28.jpg",
+    "floor_2_2_tile_29.jpg",
+    "floor_2_2_tile_48.jpg",
+    "floor_2_2_tile_49.jpg"
+  ],
+  "CH09": [
+    "floor_2_2_tile_49.jpg",
+    "floor_2_2_tile_50.jpg",
+    "floor_2_2_tile_69.jpg",
+    "floor_2_2_tile_70.jpg"
+  ],
+  "CH10": [
+    "floor_2_2_tile_49.jpg",
+    "floor_2_2_tile_50.jpg",
+    "floor_2_2_tile_69.jpg",
+    "floor_2_2_tile_70.jpg"
+  ],
+  "CH11": [
+    "floor_2_2_tile_50.jpg",
+    "floor_2_2_tile_51.jpg",
+    "floor_2_2_tile_69.jpg",
+    "floor_2_2_tile_70.jpg",
+    "floor_2_2_tile_71.jpg"
+  ],
+  "CH12": [
+    "floor_2_2_tile_50.jpg",
+    "floor_2_2_tile_51.jpg",
+    "floor_2_2_tile_70.jpg",
+    "floor_2_2_tile_71.jpg"
+  ],
+  "CH13": [
+    "floor_2_2_tile_110.jpg",
+    "floor_2_2_tile_111.jpg",
+    "floor_2_2_tile_90.jpg",
+    "floor_2_2_tile_91.jpg"
+  ],
+  "CH14": [
+    "floor_2_2_tile_109.jpg",
+    "floor_2_2_tile_110.jpg",
+    "floor_2_2_tile_89.jpg",
+    "floor_2_2_tile_90.jpg"
+  ],
+  "CH15": [
+    "floor_2_2_tile_109.jpg",
+    "floor_2_2_tile_110.jpg",
+    "floor_2_2_tile_89.jpg",
+    "floor_2_2_tile_90.jpg"
+  ],
+  "CH16": [
+    "floor_2_2_tile_108.jpg",
+    "floor_2_2_tile_109.jpg",
+    "floor_2_2_tile_88.jpg",
+    "floor_2_2_tile_89.jpg"
+  ],
+  "CH17": [
+    "floor_2_2_tile_108.jpg",
+    "floor_2_2_tile_109.jpg",
+    "floor_2_2_tile_88.jpg",
+    "floor_2_2_tile_89.jpg"
+  ],
+  "CH18": [
+    "floor_2_2_tile_67.jpg",
+    "floor_2_2_tile_68.jpg",
+    "floor_2_2_tile_87.jpg",
+    "floor_2_2_tile_88.jpg"
+  ],
+  "CH19": [
+    "floor_2_2_tile_66.jpg",
+    "floor_2_2_tile_67.jpg",
+    "floor_2_2_tile_86.jpg",
+    "floor_2_2_tile_87.jpg"
+  ],
+  "CH20": [
+    "floor_2_2_tile_66.jpg",
+    "floor_2_2_tile_67.jpg",
+    "floor_2_2_tile_86.jpg",
+    "floor_2_2_tile_87.jpg"
+  ],
+  "CH21": [
+    "floor_2_2_tile_66.jpg",
+    "floor_2_2_tile_67.jpg",
+    "floor_2_2_tile_86.jpg",
+    "floor_2_2_tile_87.jpg"
+  ],
+  "CH22": [
+    "floor_2_2_tile_105.jpg",
+    "floor_2_2_tile_106.jpg",
+    "floor_2_2_tile_85.jpg",
+    "floor_2_2_tile_86.jpg"
+  ],
+  "CH23": [
+    "floor_2_2_tile_104.jpg",
+    "floor_2_2_tile_105.jpg",
+    "floor_2_2_tile_84.jpg",
+    "floor_2_2_tile_85.jpg"
+  ],
+  "CH24": [
+    "floor_2_2_tile_104.jpg",
+    "floor_2_2_tile_105.jpg",
+    "floor_2_2_tile_84.jpg",
+    "floor_2_2_tile_85.jpg"
+  ],
+  "CH25": [
+    "floor_2_2_tile_103.jpg",
+    "floor_2_2_tile_104.jpg",
+    "floor_2_2_tile_83.jpg",
+    "floor_2_2_tile_84.jpg"
+  ],
+  "CH26": [
+    "floor_2_2_tile_102.jpg",
+    "floor_2_2_tile_103.jpg",
+    "floor_2_2_tile_82.jpg",
+    "floor_2_2_tile_83.jpg"
+  ],
+  "CH27": [
+    "floor_2_2_tile_42.jpg",
+    "floor_2_2_tile_43.jpg",
+    "floor_2_2_tile_62.jpg",
+    "floor_2_2_tile_63.jpg"
+  ],
+  "CH28": [
+    "floor_2_2_tile_43.jpg",
+    "floor_2_2_tile_44.jpg",
+    "floor_2_2_tile_63.jpg",
+    "floor_2_2_tile_64.jpg"
+  ],
+  "CH29": [
+    "floor_2_2_tile_43.jpg",
+    "floor_2_2_tile_44.jpg",
+    "floor_2_2_tile_63.jpg",
+    "floor_2_2_tile_64.jpg"
+  ],
+  "CH30": [
+    "floor_2_2_tile_44.jpg",
+    "floor_2_2_tile_45.jpg",
+    "floor_2_2_tile_64.jpg",
+    "floor_2_2_tile_65.jpg"
+  ]
+}
