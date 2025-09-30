@@ -42,7 +42,7 @@ css_style = """
 #scroll-md {
     max-height: 400px;
     overflow-y: auto;
-    height: 400px;
+    height: 600px;
     font-size: 16px;
 }
 """
