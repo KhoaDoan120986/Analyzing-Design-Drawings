@@ -3,6 +3,7 @@ import requests, base64, cv2
 import numpy as np
 import os
 from dotenv import load_dotenv
+import json 
 
 load_dotenv()
 API_URL = os.getenv("API_URL")
@@ -33,7 +34,7 @@ def query_backend(prompt1, prompt2, user_query, building, apartment, floor):
             (decode_img(data["floorplan_original"]), "Thiết kế gốc"),
             (decode_img(data["floorplan_cropped"]), "Thiết kế phóng to"),
         ]
-        return step1, step2, imgs
+        return f"```json\n{step1}\n```", step2, imgs
     else:
         return f"❌ Lỗi backend: {resp.text}", []
 
