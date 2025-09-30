@@ -58,7 +58,7 @@ with gr.Blocks(css=css_style) as demo:
             prompt2 = gr.Textbox(label="Prompt Bước 2", value="default", lines=3)
 
         with gr.Column(scale=3):
-            query = gr.Textbox(label="Nhập câu hỏi", lines=3, placeholder="Viết câu hỏi...")
+            query = gr.Textbox(label="Nhập câu hỏi", lines=3, value="Lô gia của căn hộ hướng ra khu vực nào")
             btn = gr.Button("Gửi", variant="primary")
 
     with gr.Row():
