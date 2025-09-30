@@ -142,10 +142,9 @@ def chatbot_response(req: ChatRequest):
         prompt_step2 = prompt_2 if req.prompt_2 == "default" else req.prompt_2
         user_query = f"""{prompt_step2}
         Thông tin căn hộ cần phân tích:
-
-        * Tòa nhà (Building): {req.building_code}
-        * Căn hộ (Apartment): CH{req.apartment_number:02d}
-        * Tầng (Floor): {req.floor_number}
+        - Tòa nhà (Building): {req.building_code}
+        - Căn hộ (Apartment): CH{req.apartment_number:02d}
+        - Tầng (Floor): {req.floor_number}
 
         [MAP_IMAGE]: Đây là ảnh bản đồ tổng quan vị trí block/căn hộ trong khu đô thị.
         [FLOORPLAN_LAYOUT]: Đây là JSON mô tả bố cục thiết kế mặt bằng chi tiết của căn hộ CH{req.apartment_number:02d} trong Block {req.building_code}: {json.loads(response_1.text)}
