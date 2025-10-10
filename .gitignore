@@ -10,3 +10,4 @@ logs.json
 demo.ipynb
 model/
 *.pt
+demo/
